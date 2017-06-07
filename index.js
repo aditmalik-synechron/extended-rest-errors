@@ -3,7 +3,6 @@ Object.keys(httpStatusCodes).forEach(key => {
   exports[key] = class extends Error {
     constructor(options, causedBy) {
       super();
-      this.name = this.constructor.name;
       if (typeof Error.captureStackTrace === 'function') {
         Error.captureStackTrace(this, this.constructor);
       } else {
@@ -23,6 +22,11 @@ Object.keys(httpStatusCodes).forEach(key => {
         'timestamp': Date.now().toString(),
         'validationErrors': []
       }, options);
+      delete this.stack;
+    }
+
+    toString(){
+      return JSON.stringify(this);
     }
   }
 });

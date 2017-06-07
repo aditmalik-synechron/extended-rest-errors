@@ -1,0 +1,17 @@
+{
+  "name": "extended-rest-errors",
+  "version": "0.1.0",
+  "description": "RESTful Errors",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jest": "19.0.2"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "BadRequestError": {
+    "code": 400,
+    "message": "Bad Request",
+    "status": "Bad Request Error"
+  },
+  "UnauthorizedError": {
+    "code": 401,
+    "message": "Unauthorized",
+    "status": "Unauthorized Error"
+  },
+  "ForbiddenError": {
+    "code": 403,
+    "message": "Forbidden",
+    "status": "Forbidden Error"
+  },
+  "NotFoundError": {
+    "code": 404,
+    "message": "Not Found",
+    "status": "Not Found Error"
+  },
+  "MethodNotAllowedError": {
+    "code": 405,
+    "message": "Method Not Allowed",
+    "status": "Method Not Allowed Error"
+  },
+  "NotAcceptableError": {
+    "code": 406,
+    "message": "Not Acceptable",
+    "status": "Not Acceptable Error"
+  },
+  "ProxyAuthenticationRequiredError": {
+    "code": 407,
+    "message": "Proxy Authentication Required",
+    "status": "Proxy Authentication Required Error"
+  },
+  "RequestTimeoutError": {
+    "code": 408,
+    "message": "Request Timeout",
+    "status": "Request Timeout Error"
+  },
+  "ConflictError": {
+    "code": 409,
+    "message": "Conflict",
+    "status": "Conflict Error"
+  },
+  "GoneError": {
+    "code": 410,
+    "message": "Gone",
+    "status": "Gone Error"
+  },
+  "LengthRequiredError": {
+    "code": 411,
+    "message": "Length Required",
+    "status": "Length Required Error"
+  },
+  "PreconditionFailedError": {
+    "code": 412,
+    "message": "Precondition Failed",
+    "status": "Precondition Failed Error"
+  },
+  "RequestEntityTooLargeError": {
+    "code": 413,
+    "message": "Payload Too Large",
+    "status": "Payload Too Large Error"
+  },
+  "RequesturiTooLargeError": {
+    "code": 414,
+    "message": "URI Too Long",
+    "status": "URI Too Long Error"
+  },
+  "UnsupportedMediaTypeError": {
+    "code": 415,
+    "message": "Unsupported Media Type",
+    "status": "Unsupported Media Type Error"
+  },
+  "RangeNotSatisfiableError": {
+    "code": 416,
+    "message": "Range Not Satisfiable",
+    "status": "Range Not Satisfiable Error"
+  },
+  "ExpectationFailedError": {
+    "code": 417,
+    "message": "Expectation Failed",
+    "status": "Expectation Failed Error"
+  },
+  "ImATeapotError": {
+    "code": 418,
+    "message": "Upgrade Required",
+    "status": "Upgrade Required Error"
+  },
+  "UnprocessableEntityError": {
+    "code": 422,
+    "message": "Precondition Required",
+    "status": "Precondition Required Error"
+  },
+  "LockedError": {
+    "code": 423,
+    "message": "Locked",
+    "status": "Locked Error"
+  },
+  "FailedDependencyError": {
+    "code": 424,
+    "message": "Failed Dependency",
+    "status": "Failed Dependency Error"
+  },
+  "UnorderedCollectionError": {
+    "code": 425,
+    "message": "Unordered Collection",
+    "status": "Unordered Collection Error"
+  },
+  "UpgradeRequiredError": {
+    "code": 426,
+    "message": "Upgrade Required",
+    "status": "Upgrade Required Error"
+  },
+  "PreconditionRequiredError": {
+    "code": 428,
+    "message": "Precondition Required",
+    "status": "Precondition Required Error"
+  },
+  "TooManyRequestsError": {
+    "code": 429,
+    "message": "Too Many Requests",
+    "status": "Too Many Requests Error"
+  },
+  "RequestHeaderFieldsTooLargeError": {
+    "code": 431,
+    "message": "Request Header Fields Too Large",
+    "status": "Request Header Fields Too Large Error"
+  },
+  "InternalServerError": {
+    "code": 500,
+    "message": "Internal Server Error",
+    "status": "Internal Server Error Error"
+  },
+  "NotImplementedError": {
+    "code": 501,
+    "message": "Not Implemented",
+    "status": "Not Implemented Error"
+  },
+  "BadGatewayError": {
+    "code": 502,
+    "message": "Bad Gateway",
+    "status": "Bad Gateway Error"
+  },
+  "ServiceUnavailableError": {
+    "code": 503,
+    "message": "Service Unavailable",
+    "status": "Service Unavailable Error"
+  },
+  "GatewayTimeoutError": {
+    "code": 504,
+    "message": "Gateway Timeout",
+    "status": "Gateway Timeout Error"
+  },
+  "HttpVersionNotSupportedError": {
+    "code": 505,
+    "message": "HTTP Version Not Supported",
+    "status": "HTTP Version Not Supported Error"
+  },
+  "NetworkAuthenticationRequiredError": {
+    "code": 511,
+    "message": "Network Authentication Required",
+    "status": "Network Authentication Required Error"
+  }
+}

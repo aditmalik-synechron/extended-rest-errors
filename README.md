@@ -1,5 +1,12 @@
 Usage:
+  const errors = require('extended-rest-errors');
+  errors.init({
+    packageName:'MyApp'
+    version:'0.1.0'
+  })// optional
   throw new errors.BadRequestError();
+  throw new errors.BadRequestError({message:'Invalid Request'},previousError);
+  
   
 Error Format :
     { 

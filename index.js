@@ -20,6 +20,6 @@ Object.keys(httpStatusCodes).forEach(key => {
 });
 exports.init = function init(options) {
   options = options || {};
-  process.env.NODE_PACKAGE_NAME = options.pkgName || 'unknown';
-  process.env.NODE_PACKAGE_VERSION = options.pkgVersion || 'unknown';
+  process.env.NODE_PACKAGE_NAME = options.packageName || 'unknown';
+  process.env.NODE_PACKAGE_VERSION = options.packageVersion || 'unknown';
 };

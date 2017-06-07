@@ -11,7 +11,7 @@ Object.keys(httpStatusCodes).forEach(key => {
       'exception': key,
       'message': httpStatusCodes[key].message,
       'source': process.env.NODE_ENV === 'production' ? '' : this.stack,
-      'status': 'Internal server error',
+      'status': httpStatusCodes[key].status,
       'timestamp': Date.now().toString(),
       'validationErrors': []
     }, options);

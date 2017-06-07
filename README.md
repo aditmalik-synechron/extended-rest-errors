@@ -7,7 +7,9 @@
     })// optional
     throw new errors.BadRequestError();
     throw new errors.BadRequestError({message:'Invalid Request'},previousError);
-  
+    
+    //Get 400 error by status code
+    throw new (errors.status(400))();
   
 **Error Format :**
 

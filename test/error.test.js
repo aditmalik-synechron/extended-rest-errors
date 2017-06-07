@@ -31,3 +31,10 @@ test('Test Package name & version', () => {
     expect(ex.errorResponse.version).toBe(package.version);
   }
 });
+test('Get Error Function by status code', () => {
+  try {
+    throw new (errors.status(400))();
+  } catch (ex) {
+    expect(ex.errorResponse.code).toBe(400);
+  }
+});

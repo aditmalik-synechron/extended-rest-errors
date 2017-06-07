@@ -23,3 +23,11 @@ exports.init = function init(options) {
   process.env.NODE_PACKAGE_NAME = options.packageName || 'unknown';
   process.env.NODE_PACKAGE_VERSION = options.packageVersion || 'unknown';
 };
+exports.status = function (code,options,causedBy) {
+  for(let key in httpStatusCodes){
+      if(httpStatusCodes[key].code===code){
+        return exports[key];
+      }
+  }
+  return exports.InternalServerError;
+};

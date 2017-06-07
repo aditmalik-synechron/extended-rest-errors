@@ -1,4 +1,5 @@
-Usage:
+**Usage:**
+
   const errors = require('extended-rest-errors');
   errors.init({
     packageName:'MyApp'
@@ -26,7 +27,7 @@ Error Format :
       }
     }
 
-Supported Errors:
+**Supported Errors:**
 
   400:BadRequestError
   401:UnauthorizedError
@@ -61,3 +62,4 @@ Supported Errors:
   504:GatewayTimeoutError
   505:HttpVersionNotSupportedError
   511:NetworkAuthenticationRequiredError
+
